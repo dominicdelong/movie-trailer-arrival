@@ -5,10 +5,15 @@ $primary-color: gold;
 $secondary-color: purple;
 
 // Typography
-h1{font-family: termina, sans-serif;
-font-style: normal;
-font-weight: 700;
+h1{
+    font-family: termina, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8em;
+    display: flex;
+    justify-content: center;
 }
+
 // Video Player Styling
 video {
     max-width: 100%;
